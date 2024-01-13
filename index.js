@@ -24,5 +24,6 @@ convertButton.addEventListener("click", function() {
     let resultInPounds = inputValue *  2.204 
     let resultInKilos = inputValue /  2.204 
     poundKiloBody.innerHTML = `${inputValue} kilos = ${resultInPounds.toFixed(3)} pounds | ${inputValue} pounds = ${resultInKilos.toFixed(3)} kilos`;
+    inputField.value = ""
 
 });
